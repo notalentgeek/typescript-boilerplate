@@ -1,0 +1,39 @@
+# Dependency directories (if using yarn or others)
+yarn.lock
+
+# Docker file and ignore itself
+Dockerfile
+.dockerignore
+
+# Environment variable files
+.env
+
+# IDE or editor folders
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
+
+# OS-specific files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# TypeScript build output
+build/
+dist/
+
+# .git directory (version control)
+.git/
+
+# Debug files
+*.tsbuildinfo
+
+# Optional: Exclude test data if not necessary
+test/
+tests/
